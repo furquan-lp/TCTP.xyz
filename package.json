@@ -1,5 +1,6 @@
 {
-  "name": "tctp-react",
+  "name": "tctp.xyz",
+  "homepage": "https://furquan-lp.github.io/tctp.xyz/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
