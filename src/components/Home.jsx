@@ -3,6 +3,7 @@ import React from 'react';
 import logo from './logo.svg';
 
 const Home = () => {
+  document.title = 'Home | The Chip Tinker Project';
   return (
     <div className="App">
       <header className="App-header">

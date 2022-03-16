@@ -6,6 +6,7 @@ const divStyle = {
 };
 
 const Contact = () => {
+  document.title = 'Contact | The Chip Tinker Project';
   return (
     <div style={divStyle}>
       <h2>Copyright &#169; 2022 Syed Furquan Ahmad</h2>

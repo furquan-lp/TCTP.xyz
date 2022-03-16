@@ -6,6 +6,7 @@ const divStyle = {
 };
 
 const About = () => {
+  document.title = 'About | The Chip Tinker Project';
   return (
     <div style={divStyle}>
       <h2>About Page</h2>
