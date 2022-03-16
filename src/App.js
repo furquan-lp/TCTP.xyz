@@ -1,9 +1,9 @@
-import './App.css';
+import './components/Home.css';
 import React from 'react';
 import { Route, Routes, Link } from "react-router-dom";
-import About from './About';
-import Home from './Home';
-import Contact from './Contact';
+import About from './components/About';
+import Home from './components/Home';
+import Contact from './components/Contact';
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
       Copyright (C) 2022 Syed Furquan Ahmad. All rights reserved.
     </div>
   );
-}
+};
 
 const Header = () => {
   return (
@@ -31,7 +31,7 @@ const Header = () => {
       </nav>
     </div>
   );
-}
+};
 
 const App = () => {
   return (
@@ -45,6 +45,6 @@ const App = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

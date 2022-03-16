@@ -1,4 +1,4 @@
-import './App.css';
+import './Home.css';
 import React from 'react';
 import logo from './logo.svg';
 
@@ -22,6 +22,6 @@ const Home = () => {
       </header>
     </div>
   );
-}
+};
 
 export default Home;
