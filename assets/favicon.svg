@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="50mm"
+   height="44mm"
+   version="1.1"
+   viewBox="0 0 50 44"
+   id="svg22"
+   sodipodi:docname="favicon.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview24"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="77.892232"
+     inkscape:cy="67.672329"
+     inkscape:window-width="1600"
+     inkscape:window-height="874"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="style2">
+@import url('https://fonts.googleapis.com/css2?family=VT323');
+</style>
+  </defs>
+  <rect
+     x="0.96100044"
+     y="1.4729996"
+     width="48.077999"
+     height="41.054001"
+     fill="#287773"
+     stroke="#1e8c62"
+     stroke-linecap="round"
+     stroke-width="0.40569"
+     id="rect10" />
+  <rect
+     x="13.929999"
+     y="12.759998"
+     width="21.362"
+     height="19.122999"
+     fill="#05fc99"
+     stroke="#1e8c62"
+     stroke-linecap="round"
+     stroke-width="0.40175"
+     id="rect12" />
+  <rect
+     x="35.082001"
+     y="21.739998"
+     width="8.9973001"
+     height="1.8415"
+     fill="#05fcf4"
+     id="rect14" />
+  <rect
+     x="5.1290007"
+     y="21.592999"
+     width="8.9973001"
+     height="1.8415"
+     fill="#05fcf4"
+     id="rect16" />
+  <rect
+     transform="rotate(90.101)"
+     x="3.9407766"
+     y="-25.507339"
+     width="8.9973001"
+     height="1.8415"
+     fill="#05fcf4"
+     id="rect18" />
+  <rect
+     transform="rotate(90.101)"
+     x="31.631775"
+     y="-25.56234"
+     width="8.9973001"
+     height="1.8415"
+     fill="#05fcf4"
+     id="rect20" />
+</svg>
