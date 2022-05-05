@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: space-between;
   font-family: sans-serif;
+  padding-bottom: 5px;
+  box-shadow: 0px 3px 5px -5px black;
 }
 
 .header-links a {
