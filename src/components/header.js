@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../style.css';
+import './header.css';
 import sitelogo from '../logo.svg';
 
 const Header = () => <div className="header">
