@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323');
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.header-links a {
+  margin-right: 12px;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  text-decoration: underline 0.15em white;
+  transition: text-decoration-color 300ms;
+  color: #1e8c62;
+}
+
+.header-links a:hover {
+  text-decoration-color: #1e8c62;
+}
+
+.header-links a:visited {
+  color: #6405fc;
+}
+
+.header-links a:visited:hover {
+  text-decoration-color: #6405fc;
+}
+
+.tctp-logo {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.tctp-logo a {
+  font-family: 'VT323', monospace;
+  font-size: 3.4em;
+  transition: font-size 300ms;
+  margin-left: 15px;
+  color: #1e8c62;
+  text-decoration: none;
+}
+
+.tctp-logo a:visited {
+  color: #1e8c62;
+}
+
+.tctp-logo a:hover {
+  font-size: 3.42em;
+  color: #05fc99;
+}
+
+.tctp-logo img {
+  width: 6%;
+  height: 6%;
+}
+
+.top-bar {
+  display: flex;
+  padding: 5px;
+  align-self: stretch;
+  justify-content: space-between;
+}
