@@ -5,3 +5,11 @@
   margin-right: auto;
   max-width: 1024px;
 }
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  font-size: 4em;
+  font-family: sans-serif;
+}
