@@ -5,6 +5,9 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'The Chip Tinker Project',
+    description: 'The Chip Tinker Project is a blog about exploring tech and the internet with complete tinkering freedom'
+  },
   plugins: [],
 }
