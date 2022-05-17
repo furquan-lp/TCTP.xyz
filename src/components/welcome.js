@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../style.css';
-import arduinoVector from '../arduino_img_1-.jpeg';
+import arduinoVector from '../images/arduino_img_1-.jpeg';
 
 const Welcome = ({ description }) => <div className="welcome">
   <span id="big-text">
