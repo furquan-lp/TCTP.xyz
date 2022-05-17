@@ -30,38 +30,36 @@
   text-decoration-color: #6405fc;
 }
 
-.tctp-logo {
+#logo-link {
   display: flex;
   align-items: center;
-  margin: 0px;
-}
-
-.tctp-logo a {
-  font-family: 'VT323', monospace;
-  font-size: 3.4em;
-  transition: font-size 300ms;
-  margin-left: 15px;
-  color: #1e8c62;
   text-decoration: none;
 }
 
-.tctp-logo a:visited {
+#logo-link:visited {
   color: #1e8c62;
 }
 
-.tctp-logo a:hover {
-  font-size: 3.42em;
-  color: #05fc99;
-}
-
-.tctp-logo img {
+#logo-filter {
+  margin-left: 0.5em;
   width: 6%;
   height: 6%;
+  transition: all 300ms;
 }
 
-.top-bar {
-  display: flex;
-  padding: 5px;
-  align-self: stretch;
-  justify-content: space-between;
+#logo-filter:hover {
+  filter: brightness(120%) contrast(150%);
+}
+
+#logo-title {
+  font-family: 'VT323', monospace;
+  font-size: 3.4rem;
+  transition: font-size 300ms;
+  margin-left: 0.5rem;
+  color: #1e8c62;
+}
+
+#logo-title:hover {
+  font-size: 3.42rem;
+  color: #05fc99;
 }
