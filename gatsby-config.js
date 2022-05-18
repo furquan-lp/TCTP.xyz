@@ -9,5 +9,13 @@ module.exports = {
     title: 'The Chip Tinker Project',
     description: 'The Chip Tinker Project is a blog about exploring tech and the internet with complete tinkering freedom'
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+  ],
 }
