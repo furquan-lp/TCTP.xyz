@@ -7,11 +7,11 @@ export default function Blog({ data }) {
   const { posts } = data.blog;
   return (
     <div className="blog">
-      <h1>My blog posts</h1>
+      <h1>Blog</h1>
 
       {posts.map(post => (
         <article key={post.id}>
-          <Link to={post.fields.slug}>
+          <Link to={'.' + post.fields.slug}>
             <h2>{post.frontmatter.title}</h2>
           </Link>
           <small>
