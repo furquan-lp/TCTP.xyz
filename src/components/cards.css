@@ -52,10 +52,12 @@
 }
 
 .card-article-link {
+  text-decoration: none;
   border-radius: 0.5em;
   color: #f1faee;
   background-color: #457b9d;
   padding: 0.4em;
+  box-shadow: 1px 1px 1px 0px gray;
 }
 
 .calendar-icon {
