@@ -2,6 +2,8 @@
   padding: 0.5rem;
   border-radius: 1rem;
   margin-right: 1rem;
+  width: 50%;
+  height: 50%;
   box-shadow: 1px 1px 1px 0px whitesmoke;
 }
 
