@@ -1,6 +1,8 @@
 .card-img {
+  padding: 0.5rem;
   border-radius: 1rem;
   margin-right: 1rem;
+  box-shadow: 1px 1px 1px 0px whitesmoke;
 }
 
 .card-article {
