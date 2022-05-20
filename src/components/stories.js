@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { FiCalendar } from '@react-icons/all-files/fi/FiCalendar';
+import { IconContext } from '@react-icons/all-files';
 
 import './stories.css';
 import './cards.css';
@@ -9,8 +11,16 @@ const BigCard = ({ image, imageAlt, post }) =>
   <div className="big-card">
     <img src={image} alt={imageAlt} className="card-img" />
     <div className="card-article">
-      <span className="card-article-title">{post.frontmatter.title}</span>
-      <p className="preview-text">{post.excerpt}...</p>
+      <div className="card-article-content">
+        <span className="card-article-title">{post.frontmatter.title}</span>
+        <div className="card-article-date">
+          <IconContext.Provider value={{ size: '1.8em', className: 'calendar-icon' }}>
+            <FiCalendar />
+          </IconContext.Provider>
+          {post.frontmatter.date}
+        </div>
+        <span className="card-preview-text">{post.excerpt}...</span>
+      </div>
       <Link to={'blog' + post.fields.slug} className="more-button">
         READ ARTICLE
       </Link>
