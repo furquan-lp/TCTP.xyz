@@ -39,6 +39,7 @@ query myQueries {
       frontmatter {
         date(fromNow: true)
         title
+        tags
         author
       }
       excerpt
