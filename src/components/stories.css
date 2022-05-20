@@ -1,0 +1,27 @@
+.stories {
+  color: #1d3557;
+  font-family: sans-serif;
+}
+
+.article-link {
+  color: #1d3557;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+}
+
+.article-link:visited {
+  color: #1d3557;
+}
+
+.big-card {
+  display: flex;
+  padding: 0.5em;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 2px 0px silver;
+}
