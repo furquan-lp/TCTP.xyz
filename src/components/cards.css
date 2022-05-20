@@ -1,0 +1,32 @@
+.card-img {
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.card-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-article-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-article-title {
+  font-size: 2rem;
+}
+
+.card-article-date {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  align-items: center;
+}
+
+.calendar-icon {
+  margin-right: 0.5rem;
+}
