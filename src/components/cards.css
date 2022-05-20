@@ -19,6 +19,7 @@
 }
 
 .card-article-title {
+  text-decoration: none;
   letter-spacing: 1px;
   font-size: 2rem;
 }
