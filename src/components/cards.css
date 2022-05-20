@@ -40,15 +40,19 @@
 .card-article-tags {
   display: flex;
   flex-direction: row;
-  margin-bottom: 1.0em;
+  margin-bottom: 1.2em;
 }
 
 .card-article-tag {
   padding: 0.4em;
   background-color: silver;
-  font-size: small;
+  font-size: smaller;
   border-radius: 1em;
   margin-right: 1em;
+}
+
+.card-article-button {
+  font-size: 1.0em;
 }
 
 .card-article-link {
@@ -56,7 +60,7 @@
   border-radius: 0.5em;
   color: #f1faee;
   background-color: #457b9d;
-  padding: 0.4em;
+  padding: 0.5em;
   box-shadow: 1px 1px 1px 0px gray;
   transition: all 300ms;
 }
