@@ -14,16 +14,25 @@ const BigCard = ({ image, imageAlt, post }) =>
       <div className="card-article-content">
         <span className="card-article-title">{post.frontmatter.title}</span>
         <div className="card-article-date">
-          <IconContext.Provider value={{ size: '1.8em', className: 'calendar-icon' }}>
+          <IconContext.Provider value={
+            { size: '1.8em', className: 'calendar-icon' }
+          }>
             <FiCalendar />
           </IconContext.Provider>
           {post.frontmatter.date}
         </div>
-        <span className="card-preview-text">{post.excerpt}...</span>
+        <span className="card-preview-text">{post.excerpt}</span>
       </div>
-      <Link to={'blog' + post.fields.slug} className="more-button">
-        READ ARTICLE
-      </Link>
+      <div className="card-article-footer">
+        <div className="card-article-tags">
+          {post.frontmatter.tags.map(tag =>
+            <span className="card-article-tag" key={tag.id}>{tag}</span>
+          )}
+        </div>
+        <Link to={'blog' + post.fields.slug} className="more-button">
+          READ ARTICLE
+        </Link>
+      </div>
     </div>
   </div>;
 
