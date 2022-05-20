@@ -12,7 +12,7 @@ const BigCard = ({ image, imageAlt, post }) =>
     <img src={image} alt={imageAlt} className="card-img" />
     <div className="card-article">
       <div className="card-article-content">
-        <span className="card-article-title">{post.frontmatter.title}</span>
+        <Link to={'blog' + post.fields.slug} className="card-article-title">{post.frontmatter.title}</Link>
         <div className="card-article-date">
           <IconContext.Provider value={
             { size: '1.8em', className: 'calendar-icon' }
