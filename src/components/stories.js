@@ -29,9 +29,11 @@ const BigCard = ({ image, imageAlt, post }) =>
             <span className="card-article-tag" key={tag.id}>{tag}</span>
           )}
         </div>
-        <Link to={'blog' + post.fields.slug} className="more-button">
-          READ ARTICLE
-        </Link>
+        <span className="card-article-button">
+          <Link to={'blog' + post.fields.slug} className="card-article-link">
+            READ ARTICLE
+          </Link>
+        </span>
       </div>
     </div>
   </div>;
