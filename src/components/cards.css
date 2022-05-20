@@ -40,6 +40,7 @@
 .card-article-tags {
   display: flex;
   flex-direction: row;
+  margin-bottom: 1.0em;
 }
 
 .card-article-tag {
@@ -48,6 +49,13 @@
   font-size: small;
   border-radius: 1em;
   margin-right: 1em;
+}
+
+.card-article-link {
+  border-radius: 0.5em;
+  color: #f1faee;
+  background-color: #457b9d;
+  padding: 0.4em;
 }
 
 .calendar-icon {
