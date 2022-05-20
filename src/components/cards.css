@@ -58,6 +58,12 @@
   background-color: #457b9d;
   padding: 0.4em;
   box-shadow: 1px 1px 1px 0px gray;
+  transition: all 300ms;
+}
+
+.card-article-link:hover {
+  text-decoration: underline;
+  background-color: #1d3557;
 }
 
 .calendar-icon {
