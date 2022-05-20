@@ -15,6 +15,7 @@
 }
 
 .card-article-title {
+  letter-spacing: 1px;
   font-size: 2rem;
 }
 
@@ -25,6 +26,24 @@
   margin-bottom: 1rem;
   font-size: 1.1rem;
   align-items: center;
+}
+
+.card-article-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-article-tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-article-tag {
+  padding: 0.4em;
+  background-color: silver;
+  font-size: small;
+  border-radius: 1em;
+  margin-right: 1em;
 }
 
 .calendar-icon {
