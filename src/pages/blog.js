@@ -1,14 +1,21 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 
+import Header from '../components/header';
+
 import '../style.css';
+
+const BigBox = () =>
+  <div id="big-box">
+    <div id="big-box-title">Stories</div>
+  </div>;
 
 export default function Blog({ data }) {
   const { posts } = data.blog;
   return (
     <div className="blog">
-      <h1>Blog</h1>
-
+      <Header />
+      <BigBox />
       {posts.map(post => (
         <article key={post.id}>
           <Link to={'.' + post.fields.slug}>
