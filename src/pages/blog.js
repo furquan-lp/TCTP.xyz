@@ -2,8 +2,9 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 
 import Header from '../components/header';
+import Card from '../components/cards';
 
-import '../style.css';
+import '../blog.css';
 
 const BigBox = () =>
   <div id="big-box">
@@ -16,17 +17,11 @@ export default function Blog({ data }) {
     <div className="blog">
       <Header />
       <BigBox />
-      {posts.map(post => (
-        <article key={post.id}>
-          <Link to={'.' + post.fields.slug}>
-            <h2>{post.frontmatter.title}</h2>
-          </Link>
-          <small>
-            {post.frontmatter.author}, {post.frontmatter.date}
-          </small>
-          <p>{post.excerpt}</p>
-        </article>
-      ))}
+      <div className="blog-articles">
+        {posts.map(post => (
+          <Card key={post.id} post={post} />
+        ))}
+      </div>
     </div>
   );
 }
