@@ -43,7 +43,10 @@ const BigCard = ({ image, imageAlt, post }) =>
 const Stories = ({ posts }) =>
   <div className="stories">
     <BigCard image={sampleImg} imageAlt="Sample Image" post={posts[0]} />
-    <div className="stories-title">Latest Posts</div>
+    <div className="stories-titlebar">
+      <div className="stories-title">Latest Posts</div>
+      <Link to="blog" id="read-all">Read all posts</Link>
+    </div>
     {posts.slice(1).map(post => (
       <article key={post.id}>
         <Link to={'blog' + post.fields.slug} className="article-link">
