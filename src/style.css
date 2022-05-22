@@ -67,3 +67,18 @@ body {
   color: #1d3557;
   font-family: sans-serif;
 }
+
+#big-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+#big-box-title {
+  color: white;
+  background-color: #457b9d;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
