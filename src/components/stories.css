@@ -3,13 +3,33 @@
   font-family: sans-serif;
 }
 
-.stories-title {
-  font-size: 2em;
-  font-weight: 500;
+.stories-titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: silver;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.0em;
+}
+
+.stories-title {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#read-all {
+  color: #457b9d;
+  font-size: medium;
+  text-decoration: none;
+}
+
+#read-all:hover {
+  text-decoration: underline;
+}
+
+#read-all:visited {
+  color: #6405fc;
 }
 
 .article-link {
