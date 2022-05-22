@@ -3,6 +3,15 @@
   font-family: sans-serif;
 }
 
+.stories-title {
+  font-size: 2em;
+  font-weight: 500;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: silver;
+  margin-bottom: 0.5em;
+}
+
 .article-link {
   color: #1d3557;
   letter-spacing: 1px;
@@ -22,8 +31,13 @@
   display: flex;
   padding: 0.5em;
   margin-top: 1em;
+  margin-bottom: 2em;
   border-radius: 0.5em;
   box-shadow: 2px 2px 3px 0px silver;
+}
+
+.card-article-title {
+  color: #1d3557;
 }
 
 .card-article-title:visited {
