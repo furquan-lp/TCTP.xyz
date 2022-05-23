@@ -4,6 +4,8 @@ import { graphql } from 'gatsby';
 import Header from '../components/header';
 import Welcome from '../components/welcome';
 import Stories from '../components/stories';
+import Footer from '../components/footer';
+
 import '../style.css';
 
 const Home = ({ data }) => {
@@ -15,6 +17,7 @@ const Home = ({ data }) => {
       image={data.welcomeImage.publicURL}
     />
     <Stories posts={posts.slice().reverse()} />
+    <Footer />
   </div>);
 };
 
