@@ -3,6 +3,7 @@ import { graphql, Link } from 'gatsby';
 
 import Header from '../components/header';
 import Card from '../components/cards';
+import Footer from '../components/footer';
 
 import '../blog.css';
 
@@ -22,6 +23,7 @@ export default function Blog({ data }) {
           <Card key={post.id} post={post} />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
