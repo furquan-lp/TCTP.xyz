@@ -1,10 +1,14 @@
 .card-img {
-  padding: 0.5rem;
+  padding: 0;
   border-radius: 1rem;
   margin-right: 1rem;
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
   box-shadow: 1px 1px 1px 0px whitesmoke;
+}
+
+.card {
+  margin: 1rem 0.5rem 0 0;
 }
 
 .card-article {
@@ -22,6 +26,9 @@
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 2rem;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
 }
 
 .card-article-date {
@@ -69,6 +76,7 @@
 .card-article-link:hover {
   text-decoration: underline;
   background-color: #1d3557;
+  ;
 }
 
 .calendar-icon {
