@@ -56,10 +56,13 @@
   box-shadow: 2px 2px 3px 0px silver;
 }
 
-.card-article-title {
+.big-card-article-title {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 2rem;
   color: #1d3557;
 }
 
-.card-article-title:visited {
+.big-card-article-title:visited {
   color: #1d3557;
 }
