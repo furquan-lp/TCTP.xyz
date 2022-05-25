@@ -9,8 +9,8 @@ import sampleImg from '../images/iot.jpg';
 
 const BigCard = ({ image, imageAlt, post }) =>
   <div className="big-card">
-    <img src={image} alt={imageAlt} className="card-img" />
-    <div className="card-article">
+    <img src={image} alt={imageAlt} className="big-card-img" />
+    <div className="big-card-article">
       <div className="card-article-content">
         <Link to={'blog' + post.fields.slug} className="big-card-article-title">
           {post.frontmatter.title}
