@@ -56,6 +56,21 @@
   box-shadow: 2px 2px 3px 0px silver;
 }
 
+.big-card-img {
+  padding: 0;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  width: 60%;
+  height: 60%;
+  box-shadow: 1px 1px 1px 0px whitesmoke;
+}
+
+.big-card-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .big-card-article-title {
   text-decoration: none;
   letter-spacing: 1px;
