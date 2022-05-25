@@ -7,7 +7,7 @@ const Card = ({ post }) =>
   <div className="card">
     <article className="card-article">
       <Link to={'.' + post.fields.slug} className="card-article-title">
-        <h2>{post.frontmatter.title}</h2>
+        {post.frontmatter.title}
       </Link>
       <small>
         {post.frontmatter.author}, {post.frontmatter.date}
