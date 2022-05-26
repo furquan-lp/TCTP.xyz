@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 import './cards.css';
 
 const Card = ({ post }) =>
   <div className="card">
     <article className="card-article">
+      <GatsbyImage
+        image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData}
+      />
       <Link to={'.' + post.fields.slug} className="card-article-title">
         {post.frontmatter.title}
       </Link>
