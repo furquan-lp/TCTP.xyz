@@ -32,18 +32,24 @@
   color: #6405fc;
 }
 
-.article-link {
+.article-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.article-title-link {
   color: #1d3557;
   letter-spacing: 1px;
   text-decoration: none;
   font-size: 1.5rem;
 }
 
-.article-link:hover {
+.article-title-link:hover {
   text-decoration: underline;
 }
 
-.article-link:visited {
+.article-title-link:visited {
   color: #1d3557;
 }
 
