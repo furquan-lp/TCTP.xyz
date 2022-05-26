@@ -6,6 +6,8 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   margin: 1rem 1rem 0 0;
   width: 30vw;
   box-shadow: 1px 1px 1px 1px silver;
