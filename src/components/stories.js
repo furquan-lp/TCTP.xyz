@@ -1,15 +1,18 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { FiCalendar } from '@react-icons/all-files/fi/FiCalendar';
 import { IconContext } from '@react-icons/all-files';
 
 import './stories.css';
 import './cards.css';
-import sampleImg from '../images/iot.jpg';
 
-const BigCard = ({ image, imageAlt, post }) =>
+const BigCard = ({ post }) =>
   <div className="big-card">
-    <img src={image} alt={imageAlt} className="big-card-img" />
+    <GatsbyImage
+      image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData}
+      className="big-card-img"
+    />
     <div className="big-card-article">
       <div className="card-article-content">
         <Link to={'blog' + post.fields.slug} className="big-card-article-title">
@@ -42,7 +45,7 @@ const BigCard = ({ image, imageAlt, post }) =>
 
 const Stories = ({ posts }) =>
   <div className="stories">
-    <BigCard image={sampleImg} imageAlt="Sample Image" post={posts[0]} />
+    <BigCard post={posts[0]} />
     <div className="stories-titlebar">
       <div className="stories-title">Latest Posts</div>
       <Link to="blog" id="read-all">Read all posts</Link>
