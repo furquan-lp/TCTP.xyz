@@ -30,19 +30,23 @@ export default function Blog({ data }) {
 
 export const pageQuery = graphql`
   query MyQuery {
-    blog: allMarkdownRemark {
-      posts: nodes {
+  blog: allMarkdownRemark {
+    posts: nodes {
         fields {
-          slug
-        }
-        frontmatter {
-          date(fromNow: true)
-          title
-          author
-        }
-        excerpt
-        id
+        slug
       }
+        frontmatter {
+        date(fromNow: true)
+        title
+        author
+        thumbnail {
+          childImageSharp {
+            gatsbyImageData(layout: FIXED, width: 250)
+          }
+        }
+      }
+      excerpt
+      id
     }
   }
-`
+}`
