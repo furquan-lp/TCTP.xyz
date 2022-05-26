@@ -8,9 +8,10 @@ const Card = ({ post }) =>
   <div className="card">
     <GatsbyImage
       image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData}
+      className="card-img"
     />
     <article className="card-article">
-      <Link to={'.' + post.fields.slug} className="card-article-title">
+      <Link to={'.' + post.fields.slug} className="card-article-title-link">
         {post.frontmatter.title}
       </Link>
       <small>
