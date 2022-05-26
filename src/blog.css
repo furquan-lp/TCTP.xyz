@@ -46,4 +46,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-article-title-link {
+  color: #1d3557;
+}
+
+.card-article-title-link:visited {
+  color: #1d3557;
 }
