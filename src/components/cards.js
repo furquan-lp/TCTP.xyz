@@ -18,11 +18,11 @@ const Card = ({ post }) =>
         {post.frontmatter.author}, {post.frontmatter.date}
       </small>
       <p>{post.excerpt}</p>
-      <span className="card-article-button">
+      <section className="card-article-button">
         <Link to={'blog' + post.fields.slug} className="card-article-link">
           READ ARTICLE
         </Link>
-      </span>
+      </section>
     </article>
   </div>;
 
