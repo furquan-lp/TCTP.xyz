@@ -48,11 +48,11 @@ const Stories = ({ posts }) =>
       <Link to="blog" id="read-all">Read all posts</Link>
     </div>
     {posts.slice(1).map(post => (
-      <article key={post.id}>
-        <Link to={'blog' + post.fields.slug} className="article-link">
+      <article key={post.id} className="article-title">
+        <Link to={'blog' + post.fields.slug} className="article-title-link">
           {post.frontmatter.title}
         </Link>
-        <p>{post.frontmatter.date}</p>
+        {post.frontmatter.date}
       </article>
     ))}
   </div>;
