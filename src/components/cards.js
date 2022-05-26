@@ -19,7 +19,7 @@ const Card = ({ post }) =>
       </small>
       <p>{post.excerpt}</p>
       <section className="card-article-button">
-        <Link to={'blog' + post.fields.slug} className="card-article-link">
+        <Link to={'.' + post.fields.slug} className="card-article-link">
           READ ARTICLE
         </Link>
       </section>
