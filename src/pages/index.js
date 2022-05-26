@@ -44,6 +44,11 @@ query myQueries {
         title
         tags
         author
+        thumbnail {
+          childImageSharp {
+            gatsbyImageData(width: 450)
+          }
+        }
       }
       excerpt
       id
