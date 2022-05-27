@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import '../style.css';
-
 const Welcome = ({ description, image }) => <div className="welcome">
   <span id="big-text">
     <u>Welcome!</u>
