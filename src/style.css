@@ -62,3 +62,20 @@ body {
 #welcomeimg:hover {
   opacity: 0.9;
 }
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: #1d3557;
+}
+
+.about-text h1 {
+  margin: 6rem 1rem 3rem 1rem;
+  font-size: 3rem;
+}
+
+.about-text p {
+  font-size: 1.25em;
+  margin: 1.5rem 1rem;
+}
