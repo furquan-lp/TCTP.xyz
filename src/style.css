@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323');
 
 body {
-  background-image: url('./images/image.png');
+  background-image: url('./images/background.png');
 }
 
-.Home {
+.Home,
+.about {
   margin-left: auto;
   margin-right: auto;
   max-width: 1024px;
