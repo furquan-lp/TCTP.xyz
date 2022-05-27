@@ -10,7 +10,7 @@
   flex-direction: column;
   margin: 1rem 1rem 0 0;
   width: 30vw;
-  box-shadow: 1px 1px 1px 1px silver;
+  box-shadow: 1px 2px 5px -1px silver;
   padding: 0.5rem 0.5rem 1rem 0.5rem;
   border-radius: 0.5rem;
 }
