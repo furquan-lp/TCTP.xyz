@@ -30,7 +30,7 @@ export default function Blog({ data }) {
 
 export const pageQuery = graphql`
   query MyQuery {
-  blog: allMarkdownRemark {
+    blog: allMarkdownRemark (sort: { order: DESC, fields: [frontmatter___date] }) {
     posts: nodes {
         fields {
         slug
@@ -41,7 +41,7 @@ export const pageQuery = graphql`
         author
         thumbnail {
           childImageSharp {
-            gatsbyImageData(layout: FIXED, width: 250)
+            gatsbyImageData(width: 450)
           }
         }
       }
