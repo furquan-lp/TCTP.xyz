@@ -10,9 +10,16 @@ export default function BlogPost({ data }) {
     <div className="blog">
       <Header />
       <h1>{post.frontmatter.title}</h1>
-      <span className="subtitle">
-        By {post.frontmatter.author} &#183; {post.frontmatter.date}
-      </span>
+      <div className="blog-subtitle">
+        <span className="blog-author-date">
+          By {post.frontmatter.author} &#183; {post.frontmatter.date}
+        </span>
+        <span className="blog-tags">
+          {post.frontmatter.tags.map(tag =>
+            <span className="blog-tag" key={tag.id}>#{tag}</span>
+          )}
+        </span>
+      </div>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <Footer />
     </div>
@@ -27,6 +34,7 @@ export const query = graphql`
         title
         date (formatString: "MMMM DD, YYYY")
         author
+        tags
       }
     }
   }
