@@ -80,3 +80,21 @@ body {
   font-size: 1.25em;
   margin: 1.5rem 1rem;
 }
+
+.blog-subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-tags {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.blog-author-date {
+  color: #457b9d;
+}
+
+.blog-tag {
+  margin: 0.5em;
+}
