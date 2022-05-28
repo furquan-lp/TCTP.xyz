@@ -86,15 +86,21 @@ body {
   justify-content: space-between;
 }
 
+.blog-author-date {
+  color: #457b9d;
+}
+
 .blog-tags {
   color: #e63946;
   font-weight: bold;
 }
 
-.blog-author-date {
-  color: #457b9d;
-}
-
 .blog-tag {
   margin: 0.5em;
+}
+
+.blog-banner-img {
+  border-radius: 1rem;
+  margin: 1rem 0;
+  box-shadow: 1px 1px 1px 0px silver;
 }
