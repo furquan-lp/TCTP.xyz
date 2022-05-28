@@ -16,7 +16,7 @@ const Home = ({ data }) => {
       description={data.site.siteMetadata.description}
       image={data.welcomeImage.publicURL}
     />
-    <Stories posts={posts.slice().reverse()} />
+    <Stories posts={posts} />
     <Footer />
   </div>);
 };
@@ -34,7 +34,7 @@ query myQueries {
     publicURL
   }
 
-  blog: allMarkdownRemark {
+  blog: allMarkdownRemark (sort: { order: DESC, fields: [frontmatter___date] }) {
     posts: nodes {
       fields {
         slug
