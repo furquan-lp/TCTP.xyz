@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -20,6 +21,10 @@ export default function BlogPost({ data }) {
           )}
         </span>
       </div>
+      <GatsbyImage
+        image={post.frontmatter.banner.childImageSharp.gatsbyImageData}
+        className="blog-banner-img"
+      />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <Footer />
     </div>
@@ -35,6 +40,11 @@ export const query = graphql`
         date (formatString: "MMMM DD, YYYY")
         author
         tags
+        banner {
+          childImageSharp {
+            gatsbyImageData(width: 1024, height: 450)
+          }
+        }
       }
     }
   }
