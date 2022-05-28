@@ -50,7 +50,7 @@ const Stories = ({ posts }) =>
       <div className="stories-title">Latest Posts</div>
       <Link to="blog" id="read-all">Read all posts</Link>
     </div>
-    {posts.slice(1).map(post => (
+    {posts.slice(0, 3).map(post => (
       <article key={post.id} className="article-title">
         <Link to={'blog' + post.fields.slug} className="article-title-link">
           {post.frontmatter.title}
