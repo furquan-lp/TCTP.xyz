@@ -35,6 +35,15 @@
   margin: 0;
 }
 
+.card-article-subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.1rem;
+  align-items: center;
+  color: #457b9d;
+  font-size: 0.95rem;
+}
+
 .card-article-date {
   display: flex;
   flex-direction: row;
