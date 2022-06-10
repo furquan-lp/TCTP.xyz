@@ -35,8 +35,8 @@ export const pageQuery = graphql`
         fields {
         slug
       }
-        frontmatter {
-        date(fromNow: true)
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
         title
         author
         thumbnail {
