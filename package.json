@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
-    "gatsby": "^4.13.0",
+    "gatsby": "^4.14.0",
     "gatsby-plugin-image": "^2.15.0",
     "gatsby-remark-images": "^6.15.0",
     "gatsby-source-filesystem": "^4.14.0",
@@ -23,7 +23,7 @@
     "gatsby-transformer-sharp": "^4.15.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.1.1"
   },
   "devDependencies": {
     "prettier": "^2.6.2"
