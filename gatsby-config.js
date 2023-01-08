@@ -40,6 +40,9 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-image`
+    `gatsby-plugin-image`,
+    {
+      resolve: 'gatsby-plugin-netlify-cms'
+    }
   ],
 }
