@@ -5,13 +5,13 @@ backend:
 
 local_backend: true
 
-media_folder: src/images
+media_folder: content/images
 public_folder: ../assets
 
 collections:
   - name: blog
     label: Blog
-    folder: src/blog
+    folder: content/blog
     create: true
     fields:
       - { name: title, label: Title, widget: 'string' }
@@ -19,5 +19,5 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: thumbnail, label: Thumbnail, widget: 'image' }
       - { name: banner, label: Banner, widget: 'image' }
-      - { name: tags, label: Tags, widget: 'string' }
+      - { name: tags, label: Tags, widget: 'list' }
       - { name: body, label: Body, widget: markdown }
