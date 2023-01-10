@@ -17,7 +17,7 @@ module.exports = {
         'purple-new': '#6405fc'
       },
       fontSize: {
-        'bigger-logo-title': '4rem'
+        'bigger-logo-title': '3.8rem'
       }
     }
   },
