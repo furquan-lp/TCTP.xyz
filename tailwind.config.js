@@ -10,6 +10,11 @@ module.exports = {
       },
       fontFamily: {
         'logofont': ['VT323', 'monospace']
+      },
+      colors: {
+        'green-dark': '#1e8c62',
+        'green-light': '#05fc99',
+        'purple-new': '#6405fc'
       }
     }
   },
