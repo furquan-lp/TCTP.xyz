@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import './header.css';
 import sitelogo from '../../assets/logo.svg';
 
 const Header = () =>
