@@ -12,9 +12,13 @@ const Header = () =>
       <span className="font-logofont text-3xl md:text-6xl ml-2 text-green-dark select-none transition-all duration-300
       md:hover:text-bigger-logo-title hover:text-green-light">TCTP - The Chip Tinker Project</span>
     </Link>
-    <div className="header-links">
-      <Link to="/blog" className="header-link">Blog</Link>
-      <Link to="/about" className="header-link">About</Link>
+    <div>
+      <Link to="/blog" className="mr-2 text-lg md:text-2xl text-green-dark tracking-wider underline decoration-green-dark
+       md:decoration-white hover:decoration-green-dark decoration-2 md:decoration-4 visited:text-purple-new
+         visited:hover:decoration-purple-new transition-all duration-200">Blog</Link>
+      <Link to="/about" className="mr-2 text-lg md:text-2xl text-green-dark tracking-wider underline decoration-green-dark
+       md:decoration-white hover:decoration-green-dark decoration-2 md:decoration-4 visited:text-purple-new
+         visited:hover:decoration-purple-new transition-all duration-200">About</Link>
     </div>
   </div>;
 
