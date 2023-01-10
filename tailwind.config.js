@@ -15,6 +15,9 @@ module.exports = {
         'green-dark': '#1e8c62',
         'green-light': '#05fc99',
         'purple-new': '#6405fc'
+      },
+      fontSize: {
+        'bigger-logo-title': '4rem'
       }
     }
   },
