@@ -3,6 +3,7 @@
   "private": true,
   "description": "The Chip Tinker Project blog",
   "version": "0.7.0",
+  "homepage": "https://tctp.xyz/",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
@@ -37,6 +38,7 @@
     "url": "https://github.com/furquan-lp/tctp.xyz"
   },
   "bugs": {
-    "url": "https://github.com/furquan-lp/tctp.xyz/issues"
+    "url": "https://github.com/furquan-lp/tctp.xyz/issues",
+    "email": "simpledev.site@proton.me"
   }
 }
