@@ -8,7 +8,7 @@ import './footer.css';
 const Footer = () =>
   <div className="footer">
     <span id="copyright-text">
-      Copyright &copy; 2022 Syed Furquan Ahmad. Build version {version}.
+      Copyright &copy; {new Date().getFullYear()} Syed Furquan Ahmad. Build version {version}.
     </span>
     <a href="https://github.com/furquan-lp/tctp.xyz" id="footer-link">
       View source code on GitHub
