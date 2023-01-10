@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import './header.css';
-import sitelogo from '../logo.svg';
+import sitelogo from '../../assets/logo.svg';
 
 const Header = () =>
-  <div className="header">
+  <div className="flex items-center justify-between shadow-sm pb-1">
     <Link to="/" id="logo-link">
       <img src={sitelogo} alt="The Chip Tinker Project" id="logo-filter" />
       <span id="logo-title">TCTP - The Chip Tinker Project</span>
