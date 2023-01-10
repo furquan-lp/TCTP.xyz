@@ -3,6 +3,8 @@ import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
+import { bugs } from '../../package.json';
+
 const About = () =>
   <div className="about">
     <Header />
@@ -23,7 +25,7 @@ const About = () =>
         You can learn more about me and my projects on my <a
           href="https://simpledev.site/">website</a>. If you have any feedback,
         you can email me at <a
-          href="mailto:simpledev.site@proton.me">SimpleDev</a>.
+          href={`mailto:${bugs.email}`}>SimpleDev</a>.
       </p>
     </div>
     <Footer />
