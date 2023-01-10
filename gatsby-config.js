@@ -43,6 +43,7 @@ module.exports = {
     `gatsby-plugin-image`,
     {
       resolve: 'gatsby-plugin-netlify-cms'
-    }
+    },
+    'gatsby-plugin-postcss'
   ],
 }
