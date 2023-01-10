@@ -44,6 +44,12 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-netlify-cms'
     },
-    'gatsby-plugin-postcss'
+    'gatsby-plugin-postcss',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'assets/logo.png',
+      }
+    }
   ],
 }
