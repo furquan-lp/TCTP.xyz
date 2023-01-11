@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 import { bugs } from '../../package.json';
 
 const About = () =>
-  <div className="about">
+  <div className="mx-auto md:max-w-screen-lg bg-white shadow-body">
     <Header />
     <div className="about-text">
       <h1>About</h1>

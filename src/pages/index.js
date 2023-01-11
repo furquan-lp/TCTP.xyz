@@ -10,7 +10,7 @@ import '../styles/style.css';
 
 const Home = ({ data }) => {
   const { posts } = data.blog;
-  return (<div className="Home">
+  return (<div className="mx-auto md:max-w-screen-lg bg-white shadow-body">
     <Header />
     <Welcome
       description={data.site.siteMetadata.description}
