@@ -5,7 +5,7 @@ import Header from '../components/header';
 import Card from '../components/cards';
 import Footer from '../components/footer';
 
-import '../blog.css';
+import '../styles/blog.css';
 
 const BigBox = () =>
   <div id="big-box">

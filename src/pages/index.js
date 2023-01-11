@@ -6,7 +6,7 @@ import Welcome from '../components/welcome';
 import Stories from '../components/stories';
 import Footer from '../components/footer';
 
-import '../style.css';
+import '../styles/style.css';
 
 const Home = ({ data }) => {
   const { posts } = data.blog;
