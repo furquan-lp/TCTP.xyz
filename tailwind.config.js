@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        'panel': '0px 3px 5px -5px rgba(0, 0, 0, 1)'
+        'panel': '0px 3px 5px -5px rgba(0, 0, 0, 1)',
+        'body': '0px 0px 40px 40px rgba(255, 255, 255, 1)'
       },
       fontFamily: {
         'logofont': ['VT323', 'monospace']
