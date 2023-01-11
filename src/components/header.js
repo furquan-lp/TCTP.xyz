@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import sitelogo from '../../assets/logo.svg';
 
 const Header = () =>
-  <div className="flex items-center justify-between shadow-panel pb-2">
+  <div className="flex items-center justify-between shadow-panel pb-2 backdrop-blur">
     <Link to="/" className="flex items-center">
       <img src={sitelogo} alt="The Chip Tinker Project" className="ml-2 w-8 h-8 md:w-12 md:h-12 transition-all
       duration-300 hover:brightness-125 hover:contrast-125" />
