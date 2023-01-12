@@ -9,7 +9,7 @@ const About = () =>
   <div className="mx-auto md:max-w-screen-lg backdrop-blur backdrop-opacity-70 md:backdrop-filter-none
   md:bg-white shadow-body">
     <Header />
-    <div className="flex flex-col text-blue-deep mx-2">
+    <div className="flex flex-col text-blue-deep mx-2 h-screen md:h-full">
       <p className="mt-10 mb-6 text-4xl md:text-5xl font-bold">About TCTP.xyz</p>
       <p className="text-3xl md:text-4xl my-6">Hi there!</p>
       <p className="my-1 font-serif text-lg md:text-xl">
