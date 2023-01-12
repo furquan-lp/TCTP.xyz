@@ -23,9 +23,9 @@ const About = () =>
         had found.
       </p>
       <p className="my-5 font-serif text-lg md:text-xl">
-        You can learn more about me and my projects on my <a className=""
+        You can learn more about me and my projects on my <a className="underline md:no-underline md:hover:underline text-green-dark"
           href="https://simpledev.site/">website</a>. If you have any feedback,
-        you can email me at <a
+        you can email me at <a className="underline md:no-underline md:hover:underline text-green-dark"
           href={`mailto:${bugs.email}`}>SimpleDev</a>.
       </p>
     </div>
