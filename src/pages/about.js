@@ -28,7 +28,7 @@ const About = () =>
           href="https://simpledev.site/">website</a>. If you have any feedback,
         you can email me at <a className="underline text-green-dark decoration-green-dark md:decoration-transparent
          md:hover:decoration-green-dark transition-all duration-200"
-          href={`mailto:${bugs.email}`}>SimpleDev</a>.
+          href={`mailto:${bugs.email}`}>{bugs.email}</a>.
       </p>
     </div>
     <Footer />
