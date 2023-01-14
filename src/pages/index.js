@@ -11,7 +11,7 @@ import '../styles/style.css';
 const Home = ({ data }) => {
   const { posts } = data.blog;
   return (<div className="mx-auto md:max-w-screen-lg backdrop-blur backdrop-opacity-70 md:backdrop-filter-none
-  md:bg-white shadow-body">
+  md:bg-white shadow-body text-blue-deep">
     <Header />
     <Welcome
       description={data.site.siteMetadata.description}
