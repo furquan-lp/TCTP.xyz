@@ -44,8 +44,7 @@ const BigCard = ({ post }) =>
   </div>;
 
 const Stories = ({ posts }) =>
-  <div className="stories">
-    <BigCard post={posts[0]} />
+  <>
     <div className="stories-titlebar">
       <div className="stories-title">Latest Posts</div>
       <Link to="blog" id="read-all">Read all posts</Link>
@@ -58,6 +57,6 @@ const Stories = ({ posts }) =>
         {post.frontmatter.date}
       </article>
     ))}
-  </div>;
+  </>;
 
-export default Stories;
+export { BigCard, Stories };
