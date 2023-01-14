@@ -8,7 +8,7 @@ import './stories.css';
 import './cards.css';
 
 const BigCard = ({ post }) =>
-  <div className="flex px-2 py-3 mt-4 mb-8 rounded shadow-md shadow-slate-300 flex-wrap md:flex-nowrap">
+  <div className="flex px-2 py-3 mt-4 mb-8 rounded shadow-md shadow-slate-300 flex-wrap md:flex-nowrap bg-white">
     <GatsbyImage
       image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData}
       className="rounded-md shadow mr-4"
