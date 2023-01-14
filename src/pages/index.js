@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 
 import Header from '../components/header';
 import Welcome from '../components/welcome';
-import Stories from '../components/stories';
+import { BigCard, Stories } from '../components/stories';
 import Footer from '../components/footer';
 
 import '../styles/style.css';
@@ -17,6 +17,7 @@ const Home = ({ data }) => {
       description={data.site.siteMetadata.description}
       image={data.welcomeImage.publicURL}
     />
+    <BigCard post={posts[0]} />
     <Stories posts={posts} />
     <Footer />
   </div>);
