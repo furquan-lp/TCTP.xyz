@@ -17,7 +17,8 @@ module.exports = {
         'green-light': '#05fc99',
         'purple-new': '#6405fc',
         'blue-dark': '#457b9d',
-        'blue-deep': '#1d3557'
+        'blue-deep': '#1d3557',
+        'light-new': '#f1faee'
       },
       fontSize: {
         'bigger-logo-title': '3.8rem'
