@@ -45,13 +45,15 @@ const BigCard = ({ post }) =>
 
 const Stories = ({ posts }) =>
   <>
-    <div className="stories-titlebar">
-      <div className="stories-title">Latest Posts</div>
-      <Link to="blog" id="read-all">Read all posts</Link>
+    <div className="flex items-center justify-between border-b border-slate-300 mb-4">
+      <div className="text-3xl md:text-4xl font-medium">Latest Posts</div>
+      <Link to="blog" className="text-lg underline text-blue-dark visited:text-purple-new md:no-underline
+       md:hover:underline">Read all posts</Link>
     </div>
     {posts.slice(0, 3).map(post => (
-      <article key={post.id} className="article-title">
-        <Link to={'blog' + post.fields.slug} className="article-title-link">
+      <article key={post.id} className="flex flex-col mb-3.5 md:mb-6">
+        <Link to={'blog' + post.fields.slug} className="tracking-wide text-xl md:text-2xl underline md:no-underline
+         md:hover:underline">
           {post.frontmatter.title}
         </Link>
         {post.frontmatter.date}
