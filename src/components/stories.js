@@ -8,37 +8,35 @@ import './stories.css';
 import './cards.css';
 
 const BigCard = ({ post }) =>
-  <div className="big-card">
+  <div className="flex px-2 py-3 mt-4 mb-8 rounded shadow-md shadow-slate-300 flex-wrap md:flex-nowrap">
     <GatsbyImage
       image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData}
-      className="big-card-img"
+      className="rounded-md shadow mr-4"
     />
-    <div className="big-card-article">
-      <div className="card-article-content">
-        <Link to={'blog' + post.fields.slug} className="big-card-article-title">
+    <div className="flex flex-col justify-between">
+      <div className="flex flex-col">
+        <Link to={'blog' + post.fields.slug} className="tracking-wide text-2xl md:text-3xl">
           {post.frontmatter.title}
         </Link>
-        <div className="card-article-date">
+        <div className="flex mt-1 mb-4">
           <IconContext.Provider value={
-            { size: '1.8em', className: 'calendar-icon' }
+            { size: '1.5em', className: 'mr-2' }
           }>
             <FiCalendar />
           </IconContext.Provider>
           {post.frontmatter.date}
         </div>
-        <span className="card-preview-text">{post.excerpt}</span>
+        {post.excerpt}
       </div>
-      <div className="card-article-footer">
-        <div className="card-article-tags">
+      <div className="flex flex-col">
+        <div className="flex mb-5">
           {post.frontmatter.tags.map(tag =>
-            <span className="card-article-tag" key={tag.id}>{tag}</span>
+            <span className="p-1.5 text-sm bg-slate-300 mr-3 rounded-2xl" key={tag.id}>{tag}</span>
           )}
         </div>
-        <span className="card-article-button">
-          <Link to={'blog' + post.fields.slug} className="card-article-link">
-            READ ARTICLE
-          </Link>
-        </span>
+        <span><Link to={'blog' + post.fields.slug} className="rounded-md text-light-new bg-blue-dark p-2
+         shadow underline md:no-underline md:hover:underline hover:bg-blue-deep transition-all duration-200">
+          READ ARTICLE</Link></span>
       </div>
     </div>
   </div>;
