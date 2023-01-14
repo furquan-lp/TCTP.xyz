@@ -12,7 +12,7 @@ const About = () =>
     <div className="flex flex-col text-blue-deep mx-2 h-screen md:h-full">
       <p className="mt-10 mb-6 text-4xl md:text-5xl font-bold">About TCTP.xyz</p>
       <p className="text-3xl md:text-4xl my-6">Hi there!</p>
-      <p className="my-1 font-serif text-lg md:text-xl">
+      <p className="my-1 font-serif text-xl">
         I'm Syed Furquan Ahmad, a software engineer passionate about open source
         and web development. The Chip Tinker Project was originally concieved as
         an idea for a blog where I would post ideas and tricks about electronics
@@ -22,7 +22,7 @@ const About = () =>
         that had interested me, including and web development tips and tricks I
         had found.
       </p>
-      <p className="my-5 font-serif text-lg md:text-xl">
+      <p className="my-5 font-serif text-xl">
         You can learn more about me and my projects on my <a className="underline text-green-dark decoration-green-dark
     md:decoration-transparent md:hover:decoration-green-dark transition-all duration-200"
           href="https://simpledev.site/">website</a>. If you have any feedback,
