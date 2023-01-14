@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const Welcome = ({ description, image }) =>
   <div className="flex justify-between mt-4 md:mt-12 flex-wrap md:flex-nowrap">
-    <div className="flex flex-col text-blue-deep">
+    <div className="flex flex-col">
       <span className="underline text-3xl md:text-6xl tracking-wider">Welcome!</span>
       <span className="tracking-wide mt-2 text-lg md:text-2xl">{description}<br />
         <Link to="blog/what-is-tctp"
