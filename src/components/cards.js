@@ -3,8 +3,6 @@ import { Link } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { FiCalendar } from '@react-icons/all-files/fi/FiCalendar';
 
-import './cards.css';
-
 const Card = ({ post }) =>
   <div className="flex flex-col w-11/12 md:w-5/12 mt-4 md:mr-4 rounded-md shadow-lg p-2 bg-white justify-between">
     <GatsbyImage
