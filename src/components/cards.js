@@ -6,7 +6,7 @@ import { FiCalendar } from '@react-icons/all-files/fi/FiCalendar';
 import './cards.css';
 
 const Card = ({ post }) =>
-  <div className="flex flex-col w-11/12 md:w-5/12 mt-4 md:mr-4 rounded-md shadow-lg p-2 bg-white">
+  <div className="flex flex-col w-11/12 md:w-5/12 mt-4 md:mr-4 rounded-md shadow-lg p-2 bg-white justify-between">
     <GatsbyImage
       image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData}
       className="rounded-lg shadow-lg mb-2 md:mb-4"
@@ -20,13 +20,13 @@ const Card = ({ post }) =>
         <span><FiCalendar />{post.frontmatter.date}</span>
       </section>
       <p>{post.excerpt}</p>
-      <section className="my-4">
-        <Link to={'.' + post.fields.slug} className="rounded-md text-light-new bg-blue-dark p-2
-         shadow underline md:no-underline md:hover:underline hover:bg-blue-deep transition-all duration-200">
-          READ ARTICLE
-        </Link>
-      </section>
     </article>
+    <div className="mb-2 mt-4">
+      <Link to={'.' + post.fields.slug} className="rounded-md text-light-new bg-blue-dark p-2
+         shadow underline md:no-underline md:hover:underline hover:bg-blue-deep transition-all duration-200">
+        READ ARTICLE
+      </Link>
+    </div>
   </div>;
 
 export default Card;
