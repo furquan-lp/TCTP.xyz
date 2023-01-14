@@ -22,7 +22,7 @@ const Card = ({ post }) =>
       <p>{post.excerpt}</p>
     </article>
     <div className="mb-2 mt-4">
-      <Link to={'.' + post.fields.slug} className="rounded-md text-light-new bg-blue-dark p-2
+      <Link to={'.' + post.fields.slug} className="rounded-md text-sm md:text-base text-light-new bg-blue-dark p-2
          shadow underline md:no-underline md:hover:underline hover:bg-blue-deep transition-all duration-200">
         READ ARTICLE
       </Link>
