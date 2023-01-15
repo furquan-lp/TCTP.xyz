@@ -8,24 +8,27 @@ import Footer from '../components/footer';
 export default function BlogPost({ data }) {
   const post = data.markdownRemark;
   return (
-    <div className="blog">
+    <div className="mx-auto md:max-w-screen-lg backdrop-blur backdrop-opacity-70 md:backdrop-filter-none
+    md:bg-white shadow-body text-blue-deep">
       <Header />
-      <h1>{post.frontmatter.title}</h1>
-      <div className="blog-subtitle">
-        <span className="blog-author-date">
-          By {post.frontmatter.author} &#183; {post.frontmatter.date}
-        </span>
-        <span className="blog-tags">
-          {post.frontmatter.tags.map(tag =>
-            <span className="blog-tag" key={tag.id}>#{tag}</span>
-          )}
-        </span>
-      </div>
-      <GatsbyImage
-        image={post.frontmatter.banner.childImageSharp.gatsbyImageData}
-        className="blog-banner-img"
-      />
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <article className="flex flex-col mt-4">
+        <section className="font-bold text-3xl md:text-4xl">{post.frontmatter.title}</section>
+        <section className="flex justify-between">
+          <span className="text-blue-dark">
+            By {post.frontmatter.author} &#183; {post.frontmatter.date}
+          </span>
+          <span className="text-red-new font-bold">
+            {post.frontmatter.tags.map(tag =>
+              <span className="m-1" key={tag.id}>#{tag}</span>
+            )}
+          </span>
+        </section>
+        <GatsbyImage
+          image={post.frontmatter.banner.childImageSharp.gatsbyImageData}
+          className="rounded-lg my-4 shadow shadow-slate-500"
+        />
+        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+      </article>
       <Footer />
     </div>
   );
