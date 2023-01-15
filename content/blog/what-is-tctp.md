@@ -7,6 +7,6 @@ banner: "../images/tctp-screenshot-dark.png"
 tags: ['web']
 ---
 
-## What is The Chip Tinker Project?
+# What is The Chip Tinker Project?
 
 The Chip Tinker Project began as my personal blog.

@@ -7,7 +7,7 @@ banner: "../images/blog-banner.png"
 tags: ['iot', 'development']
 ---
 
-## IoT Basics
+# IoT Basics
 
 IoT or Internet of Things has been a buzzword in the world of technology for a
 very long time.

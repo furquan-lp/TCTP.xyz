@@ -7,7 +7,7 @@ banner: "../images/esp32.png"
 tags: ['iot', 'embedded', 'web']
 ---
 
-## ESP32 Basics
+# ESP32 Basics
 
 The ESP32 Board is an IoT platform based on the ESP32 family of
 microcontrollers. The ESP32 series employs either a Tensilica Xtensa LX6
