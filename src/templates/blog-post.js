@@ -7,13 +7,18 @@ import Footer from '../components/footer';
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark;
+  const attribs = [{
+    attriblink: "https://www.vecteezy.com/free-vector/rock-paper-scissors",
+    attrib: "Rock Paper Scissors Vectors by Vecteezy"
+  }];
+
   return (
     <div className="mx-auto md:max-w-screen-lg backdrop-blur backdrop-opacity-70 md:backdrop-filter-none
     md:bg-white shadow-body text-blue-deep">
       <Header />
       <article className="flex flex-col mt-4">
-        <section className="font-bold text-3xl md:text-4xl">{post.frontmatter.title}</section>
-        <section className="flex justify-between">
+        <section className="font-bold text-3xl md:text-4xl border-b">{post.frontmatter.title}</section>
+        <section className="flex justify-between mt-1 md:mt-2 text-sm md:text-base">
           <span className="text-blue-dark">
             By {post.frontmatter.author} &#183; {post.frontmatter.date}
           </span>
@@ -29,7 +34,7 @@ export default function BlogPost({ data }) {
         />
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
-      <Footer />
+      <Footer attribs={attribs} />
     </div>
   );
 };
