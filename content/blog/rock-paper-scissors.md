@@ -8,7 +8,3 @@ tags: ['python', 'math']
 ---
 
 # Rock-Paper-Scissors in Python Using a Little Math to Make Everything Simpler
-
-Hello World. _Hi_ **Hello**
-
-## Hello
