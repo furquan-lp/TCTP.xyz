@@ -4,8 +4,12 @@ import { IconContext } from '@react-icons/all-files';
 
 import { version } from '../../package.json';
 
-const Footer = ({ attribs }) =>
-  <div className="flex items-center justify-between border-t border-slate-300 mt-8 mb-2 pt-1 text-sm text-slate-500">
+const Footer = ({ attribs }) => {
+  if (attribs === undefined) {
+    attribs = [{}];
+  }
+  return (<div className="flex items-center justify-between border-t border-slate-300 mt-8 mb-2 pt-1 text-sm
+   text-slate-500">
     <span>
       Copyright &copy; {new Date().getFullYear()} Syed Furquan Ahmad.
       <span className="hidden md:inline"> Build version {version}.</span>
@@ -19,6 +23,7 @@ const Footer = ({ attribs }) =>
         <FiGithub />
       </IconContext.Provider>
     </a>
-  </div>;
+  </div>);
+}
 
 export default Footer;
