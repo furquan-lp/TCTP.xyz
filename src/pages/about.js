@@ -2,12 +2,14 @@ import React from 'react';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Head from '../components/Head';
 
 import { bugs } from '../../package.json';
 
 const About = () =>
   <div className="mx-auto md:max-w-screen-lg backdrop-blur backdrop-opacity-70 md:backdrop-filter-none
   md:bg-white shadow-body">
+    <Head title="About" />
     <Header />
     <div className="flex flex-col text-blue-deep mx-2 h-screen md:h-full">
       <p className="mt-10 mb-6 text-4xl md:text-5xl font-bold">About TCTP.xyz</p>

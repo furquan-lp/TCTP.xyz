@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Header from '../components/header';
 import Card from '../components/cards';
 import Footer from '../components/footer';
+import Head from '../components/Head';
 
 import '../styles/blog.css';
 
@@ -17,6 +18,7 @@ export default function Blog({ data }) {
   return (
     <div className="mx-auto md:max-w-screen-lg backdrop-blur backdrop-opacity-70 md:backdrop-filter-none
     md:bg-white shadow-body text-blue-deep">
+      <Head title="Blog" />
       <Header />
       <BigBox />
       <div className="flex flex-row flex-wrap justify-center">
