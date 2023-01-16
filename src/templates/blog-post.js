@@ -4,7 +4,7 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Head from '../components/Head';
+import Head from '../components/head';
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark;

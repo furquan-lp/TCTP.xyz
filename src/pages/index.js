@@ -5,7 +5,7 @@ import Header from '../components/header';
 import Welcome from '../components/welcome';
 import { BigCard, Stories } from '../components/stories';
 import Footer from '../components/footer';
-import Head from '../components/Head';
+import Head from '../components/head';
 
 import '../styles/style.css';
 

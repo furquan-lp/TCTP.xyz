@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Head from '../components/Head';
+import Head from '../components/head';
 
 import { bugs } from '../../package.json';
 
