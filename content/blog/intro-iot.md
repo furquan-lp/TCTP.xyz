@@ -2,8 +2,8 @@
 title: Introduction to Internet of Things (IoT)
 author: Syed Furquan Ahmad
 date: 2022-05-20
-thumbnail: "../images/iot.jpg"
-banner: "../images/blog-banner.png"
+thumbnail: "../images/iot_thumb.jpg"
+banner: "../images/iot.jpg"
 tags: ['iot', 'development']
 ---
 
