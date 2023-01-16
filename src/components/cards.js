@@ -5,7 +5,8 @@ import { FiCalendar } from '@react-icons/all-files/fi/FiCalendar';
 import { IconContext } from '@react-icons/all-files';
 
 const Card = ({ post }) =>
-  <div className="flex flex-col w-11/12 md:w-5/12 mt-4 md:mr-4 rounded-md shadow-lg p-2 bg-white justify-between">
+  <div className="flex flex-col w-11/12 md:w-5/12 mt-4 md:mr-4 rounded-md shadow-md shadow-slate-300 p-2
+   bg-white justify-between">
     <GatsbyImage
       image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData}
       className="rounded-lg shadow-lg mb-2 md:mb-4"
