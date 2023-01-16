@@ -35,7 +35,7 @@ query myQueries {
     }
   }
 
-  welcomeImage: file(base: { eq: "arduino_img_1-.jpeg" }) {
+  welcomeImage: file(base: { eq: "welcome.jpeg" }) {
     publicURL
   }
 
