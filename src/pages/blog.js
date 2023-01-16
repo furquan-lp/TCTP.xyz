@@ -19,7 +19,7 @@ export default function Blog({ data }) {
     md:bg-white shadow-body text-blue-deep">
       <Header />
       <BigBox />
-      <div className="blog-articles">
+      <div className="flex flex-row flex-wrap justify-center">
         {posts.map(post => (
           <Card key={post.id} post={post} />
         ))}
