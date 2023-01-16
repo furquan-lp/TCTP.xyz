@@ -45,7 +45,7 @@ const Stories = ({ posts }) =>
       <Link to="blog" className="text-lg underline text-blue-dark visited:text-purple-new md:no-underline
        md:hover:underline">Read all posts</Link>
     </div>
-    {posts.slice(0, posts.length).map(post => (
+    {posts.slice(0, 5).map(post => (
       <article key={post.id} className="flex flex-col mb-3.5 md:mb-6">
         <Link to={'blog' + post.fields.slug} className="tracking-wide text-xl md:text-2xl underline md:no-underline
          md:hover:underline">
