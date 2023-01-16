@@ -8,8 +8,8 @@ import Footer from '../components/footer';
 export default function BlogPost({ data }) {
   const post = data.markdownRemark;
   const attribs = [{
-    attriblink: "https://www.vecteezy.com/free-vector/rock-paper-scissors",
-    attrib: "Rock Paper Scissors Vectors by Vecteezy"
+    attriblink: "https://www.vecteezy.com/",
+    attrib: "Vectors by Vecteezy.com"
   }];
 
   return (
@@ -30,7 +30,7 @@ export default function BlogPost({ data }) {
         </section>
         <GatsbyImage
           image={post.frontmatter.banner.childImageSharp.gatsbyImageData}
-          className="rounded-lg my-4 shadow shadow-slate-500"
+          className="rounded-lg my-4 shadow shadow-slate-400"
         />
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
