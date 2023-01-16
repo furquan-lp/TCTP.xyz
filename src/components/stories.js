@@ -51,7 +51,9 @@ const Stories = ({ posts }) =>
          md:hover:underline">
           {post.frontmatter.title}
         </Link>
-        {post.frontmatter.date}
+        <span className="text-blue-dark text-sm md:text-base">
+          {post.frontmatter.date} &#183; By {post.frontmatter.author}
+        </span>
       </article>
     ))}
   </>;
