@@ -15,7 +15,7 @@ const Card = ({ post }) =>
       </Link>
       <section className="flex justify-between mt-0.5 items-center text-blue-dark">
         {post.frontmatter.author}
-        <span><FiCalendar />{post.frontmatter.date}</span>
+        <div className="flex flex-row"><FiCalendar />{post.frontmatter.date}</div>
       </section>
       <p>{post.excerpt}</p>
     </article>
