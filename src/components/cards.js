@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { FiCalendar } from '@react-icons/all-files/fi/FiCalendar';
+import { IconContext } from '@react-icons/all-files';
 
 const Card = ({ post }) =>
   <div className="flex flex-col w-11/12 md:w-5/12 mt-4 md:mr-4 rounded-md shadow-lg p-2 bg-white justify-between">
@@ -15,7 +16,10 @@ const Card = ({ post }) =>
       </Link>
       <section className="flex justify-between mt-0.5 items-center text-blue-dark">
         {post.frontmatter.author}
-        <div className="flex flex-row"><FiCalendar />{post.frontmatter.date}</div>
+        <div className="flex flex-row items-center">
+          <IconContext.Provider value={{ className: 'mr-1' }}><FiCalendar /></IconContext.Provider>
+          {post.frontmatter.date}
+        </div>
       </section>
       <p>{post.excerpt}</p>
     </article>
