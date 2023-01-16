@@ -4,6 +4,7 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Head from '../components/Head';
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark;
@@ -15,6 +16,7 @@ export default function BlogPost({ data }) {
   return (
     <div className="mx-auto md:max-w-screen-lg backdrop-blur backdrop-opacity-70 md:backdrop-filter-none
     md:bg-white shadow-body text-blue-deep">
+      <Head title={post.frontmatter.title} />
       <Header />
       <article className="flex flex-col mt-4">
         <section className="font-bold text-3xl md:text-4xl border-b">{post.frontmatter.title}</section>
