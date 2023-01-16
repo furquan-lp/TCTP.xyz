@@ -12,7 +12,7 @@ const Welcome = ({ description, image }) =>
       </span>
     </div>
     <Link to="blog/what-is-tctp" className="my-1 md:my-0">
-      <img src={image} alt="assortment of electronic components" className="rounded-md opacity-70 w-4/5 md:w-full h-full
+      <img src={image} alt="assortment of electronic components" className="rounded-md opacity-70 w-5/6 md:w-full
       shadow-md hover:opacity-90 transition-all duration-200" />
     </Link>
   </div>;
