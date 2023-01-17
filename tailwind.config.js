@@ -24,7 +24,8 @@ module.exports = {
       },
       fontSize: {
         'bigger-logo-title': '3.8rem'
-      }, backgroundImage: {
+      },
+      backgroundImage: {
         'mobile-img': "url('../../assets/background-mobile.png')",
       }
     }
