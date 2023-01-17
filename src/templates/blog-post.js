@@ -16,7 +16,7 @@ export default function BlogPost({ data }) {
   return (
     <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body text-blue-deep">
       <Header />
-      <article className="flex flex-col mt-4">
+      <article className="flex flex-col mt-4 mx-1 md:mx-0">
         <section className="font-bold text-3xl md:text-4xl border-b">{post.frontmatter.title}</section>
         <section className="flex justify-between mt-1 md:mt-2 text-sm md:text-base">
           <span className="text-blue-dark">
