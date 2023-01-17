@@ -16,7 +16,7 @@ const BigBox = () =>
 export default function Blog({ data }) {
   const { posts } = data.blog;
   return (
-    <div className="mx-auto md:max-w-screen-lg md:bg-white shadow-body text-blue-deep">
+    <div className="mx-auto md:max-w-screen-lg md:bg-white md:shadow-body text-blue-deep">
       <Head title="Blog" />
       <Header />
       <BigBox />
