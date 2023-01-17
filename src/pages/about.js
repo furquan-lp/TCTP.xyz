@@ -23,12 +23,30 @@ const About = () =>
         had found.
       </p>
       <p className="my-5 font-serif text-xl">
-        You can learn more about me and my projects on my <a className="underline text-green-dark decoration-green-dark
-    md:decoration-transparent md:hover:decoration-green-dark transition-all duration-200"
-          href="https://simpledev.site/">website</a>. If you have any feedback,
-        you can email me at <a className="underline text-green-dark decoration-green-dark md:decoration-transparent
-         md:hover:decoration-green-dark transition-all duration-200"
-          href={`mailto:${bugs.email}`}>{bugs.email}</a>.
+        You can learn more about me and my projects on my <a className="underline text-green-dark
+         decoration-green-dark md:decoration-transparent md:hover:decoration-green-dark transition-all duration-200"
+          href="https://simpledev.site/">website</a>. If you have any feedback, you can email me at <a
+            className="underline text-green-dark decoration-green-dark md:decoration-transparent
+             md:hover:decoration-green-dark transition-all duration-200" href={`mailto:${bugs.email}`}>{bugs.email}
+        </a>.
+      </p>
+      <p className="font-serif text-xl">This website is powered by <a className="underline text-blue-dark
+         decoration-blue-dark md:decoration-transparent md:hover:decoration-blue-dark transition-all duration-200"
+        href="https://www.netlifycms.org/">Netlify CMS</a> and a <a className="underline text-blue-dark
+         decoration-blue-dark md:decoration-transparent md:hover:decoration-blue-dark transition-all duration-200"
+          href="https://www.netlify.com/">Netlify</a> starter backend. It is written in JavaScript (with a little CSS)
+        using <a className="underline text-blue-dark decoration-blue-dark md:decoration-transparent
+         md:hover:decoration-blue-dark transition-all duration-200" href="https://www.gatsbyjs.com/">Gatsby </a>
+        and <a className="underline text-blue-dark decoration-blue-dark md:decoration-transparent
+         md:hover:decoration-blue-dark transition-all duration-200" href="https://tailwindcss.com/">Tailwind CSS</a>.
+        It uses icons from <a className="underline text-blue-dark decoration-blue-dark md:decoration-transparent
+         md:hover:decoration-blue-dark transition-all duration-200" href="https://github.com/react-icons/react-icons">
+          react-icons</a> and vectors provided by <a className="underline text-blue-dark decoration-blue-dark
+           md:decoration-transparent md:hover:decoration-blue-dark transition-all duration-200"
+            href="https://vecteezy.com/">Vecteezy.com</a>. All the original code and content is licensed under the
+        Zero-Clause BSD license unlesss otherwise noted, see <a className="underline text-green-dark
+         decoration-green-dark md:decoration-transparent md:hover:decoration-green-dark transition-all duration-200"
+          href="https://github.com/furquan-lp/tctp.xyz/blob/master/LICENSE/">LICENSE</a> for more details.
       </p>
     </div>
     <Footer />
