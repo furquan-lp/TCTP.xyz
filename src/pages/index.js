@@ -12,8 +12,7 @@ import '../styles/style.css';
 const Home = ({ data }) => {
   const { posts } = data.blog;
   return (
-    <div className="mx-auto md:max-w-screen-lg backdrop-brightness-110 backdrop-opacity-70 md:backdrop-filter-none
-  md:bg-white shadow-body text-blue-deep">
+    <div className="mx-auto md:max-w-screen-lg md:bg-white shadow-body text-blue-deep">
       <Head title="The Chip Tinker Project" />
       <Header />
       <Welcome
