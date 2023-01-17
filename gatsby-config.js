@@ -51,7 +51,6 @@ module.exports = {
       options: {
         icon: 'assets/logo.png',
       }
-    },
-    'gatsby-plugin-react-helmet'
+    }
   ],
 }
