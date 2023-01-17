@@ -7,7 +7,7 @@ import Head from '../components/head';
 import { bugs } from '../../package.json';
 
 const About = () =>
-  <div className="mx-auto md:max-w-screen-lg md:bg-white md:shadow-body">
+  <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body">
     <Head title="About" />
     <Header />
     <div className="flex flex-col text-blue-deep mx-2 h-screen md:h-full">

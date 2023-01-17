@@ -14,7 +14,7 @@ export default function BlogPost({ data }) {
   }];
 
   return (
-    <div className="mx-auto md:max-w-screen-lg md:bg-white md:shadow-body text-blue-deep">
+    <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body text-blue-deep">
       <Head title={post.frontmatter.title} />
       <Header />
       <article className="flex flex-col mt-4">

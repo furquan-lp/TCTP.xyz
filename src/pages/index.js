@@ -12,7 +12,7 @@ import '../styles/style.css';
 const Home = ({ data }) => {
   const { posts } = data.blog;
   return (
-    <div className="mx-auto md:max-w-screen-lg md:bg-white md:shadow-body text-blue-deep">
+    <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body text-blue-deep">
       <Head title="The Chip Tinker Project" />
       <Header />
       <Welcome
