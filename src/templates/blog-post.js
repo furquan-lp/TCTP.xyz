@@ -4,7 +4,7 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Head from '../components/head';
+import { SEO } from '../components/seo';
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark;
@@ -15,7 +15,6 @@ export default function BlogPost({ data }) {
 
   return (
     <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body text-blue-deep">
-      <Head title={post.frontmatter.title} />
       <Header />
       <article className="flex flex-col mt-4">
         <section className="font-bold text-3xl md:text-4xl border-b">{post.frontmatter.title}</section>
@@ -39,6 +38,9 @@ export default function BlogPost({ data }) {
     </div>
   );
 };
+
+export const Head = ({ data: { markdownRemark }, location }) =>
+  <SEO title={markdownRemark.frontmatter.title} pathname={location.pathname} />;
 
 export const query = graphql`
   query blogQuery($slug: String!) {
