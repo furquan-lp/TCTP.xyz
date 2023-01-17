@@ -2,13 +2,12 @@ import React from 'react';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Head from '../components/head';
+import { SEO } from '../components/seo';
 
 import { bugs } from '../../package.json';
 
 const About = () =>
   <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body">
-    <Head title="About" />
     <Header />
     <div className="flex flex-col text-blue-deep mx-2 h-screen md:h-full">
       <p className="mt-10 mb-6 text-4xl md:text-5xl font-bold">About TCTP.xyz</p>
@@ -34,5 +33,7 @@ const About = () =>
     </div>
     <Footer />
   </div>;
+
+export const Head = ({ location }) => <SEO title="About" pathname={location.pathname} />;
 
 export default About;

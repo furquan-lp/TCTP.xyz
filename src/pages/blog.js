@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import Header from '../components/header';
 import Card from '../components/cards';
 import Footer from '../components/footer';
-import Head from '../components/head';
+import { SEO } from '../components/seo';
 
 import '../styles/blog.css';
 
@@ -17,7 +17,6 @@ export default function Blog({ data }) {
   const { posts } = data.blog;
   return (
     <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body text-blue-deep">
-      <Head title="Blog" />
       <Header />
       <BigBox />
       <div className="flex flex-row flex-wrap justify-center">
@@ -29,6 +28,8 @@ export default function Blog({ data }) {
     </div>
   );
 }
+
+export const Head = ({ location }) => <SEO title="Blog" pathname={location.pathname} />;
 
 export const pageQuery = graphql`
   query MyQuery {

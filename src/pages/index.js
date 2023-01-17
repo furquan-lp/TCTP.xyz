@@ -5,7 +5,7 @@ import Header from '../components/header';
 import Welcome from '../components/welcome';
 import { BigCard, Stories } from '../components/stories';
 import Footer from '../components/footer';
-import Head from '../components/head';
+import { SEO } from '../components/seo';
 
 import '../styles/style.css';
 
@@ -13,7 +13,6 @@ const Home = ({ data }) => {
   const { posts } = data.blog;
   return (
     <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body text-blue-deep">
-      <Head title="The Chip Tinker Project" />
       <Header />
       <Welcome
         description={data.site.siteMetadata.description}
@@ -24,6 +23,8 @@ const Home = ({ data }) => {
       <Footer />
     </div>);
 };
+
+export const Head = () => <SEO />;
 
 export const pageQuery = graphql`
 query myQueries {
