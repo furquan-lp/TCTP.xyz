@@ -2,7 +2,7 @@
   "name": "tctp.xyz",
   "private": true,
   "description": "The Chip Tinker Project blog",
-  "version": "0.8.8-test",
+  "version": "0.8.9-test",
   "homepage": "https://tctp.xyz/",
   "license": "0BSD",
   "scripts": {
