@@ -38,7 +38,7 @@ query myQueries {
     }
   }
 
-  welcomeImage: file(base: { eq: "welcome.jpeg" }) {
+  welcomeImage: file(base: { eq: "welcome.webp" }) {
     publicURL
   }
 
