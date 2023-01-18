@@ -43,4 +43,4 @@ So let's go over Rock-Paper-Scissors again. The rules of the game are simple. Tw
 2. Scissors cut Paper
 3. Paper covers Rock
 
-!\[Rock Paper Scissors image](../images/rock-paper-scissors.svg.png)
+![Rock Paper Scissors image](../images/rock-paper-scissors.svg.png)
