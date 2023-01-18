@@ -30,4 +30,8 @@
   blockquote {
     @apply mx-4 italic border-l-4 bg-slate-100 p-1 rounded;
   }
+
+  section a {
+    @apply underline md:no-underline md:hover:underline text-blue-dark;
+  }
 }
