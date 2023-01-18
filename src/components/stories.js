@@ -32,8 +32,7 @@ const BigCard = ({ post }) =>
           )}
         </div>
         <span><Link to={'blog' + post.fields.slug} className="rounded-md text-light-new bg-blue-dark p-2
-         shadow underline md:no-underline md:hover:underline hover:bg-blue-deep transition-all duration-200">
-          READ ARTICLE</Link></span>
+         shadow hover:underline hover:bg-blue-deep transition-all duration-200">READ ARTICLE</Link></span>
       </div>
     </div>
   </div>;
