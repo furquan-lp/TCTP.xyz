@@ -26,4 +26,8 @@
   math {
     @apply md:text-lg;
   }
+
+  blockquote {
+    @apply mx-4 italic border-l-4 bg-slate-100 p-1 rounded;
+  }
 }
