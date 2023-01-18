@@ -16,6 +16,10 @@
   }
 
   ul {
-    @apply list-disc list-inside m-2
+    @apply list-disc list-inside m-2;
+  }
+
+  p {
+    @apply my-2;
   }
 }
