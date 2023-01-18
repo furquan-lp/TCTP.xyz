@@ -3,7 +3,7 @@ title: A Simple Rock Paper Scissors Program
 author: Syed Furquan Ahmad
 date: 2023-01-15
 thumbnail: ../images/retro-offset-rock-paper-scissors-icons.png
-banner: ../images/rock-paper-scissors-neon-icons.png
+banner: ../images/rock-paper-scissors-neon-icons.webp
 tags:
   - python
   - math
@@ -45,7 +45,7 @@ Going over Rock-Paper-Scissors again, the rules of the game are simple. Two play
 
 The game ends in a draw (and perhaps a rematch) if both the players draw the same thing.
 
-![Rock Paper Scissors image](../images/rock-paper-scissors.svg.png)
+![Rock Paper Scissors image](../images/rock-paper-scissors.webp)
 
 ## Simplifying further
 
