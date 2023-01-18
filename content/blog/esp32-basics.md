@@ -2,8 +2,8 @@
 title: Getting Started with the ESP32 IoT Platform
 author: Syed Furquan Ahmad
 date: 2022-05-20
-thumbnail: "../images/esp32.png"
-banner: "../images/esp32.png"
+thumbnail: "../images/esp32.webp"
+banner: "../images/esp32.webp"
 tags: ['iot', 'embedded', 'web']
 ---
 
