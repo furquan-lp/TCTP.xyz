@@ -3,7 +3,13 @@ This repository contains the source code for my blog at https://tctp.xyz/
 
 ![](screenshot.png)
 
+![](screenshot-chrome.png)
+
+![](screenshot-mobile.png)
+
 ## Features:
+* Fast (93 on Google Lighthouse/PageSpeed), light (only 36% of the Google homepage, scripts included) and responsive
+(mobile-first design) static blog site
 * Built using [Gatsby](https://www.gatsbyjs.com/), React and [Tailwind CSS](https://tailwindcss.com/)
 * Uses [Netlify CMS](https://www.netlifycms.org/) for posting and managing blog content
 * Powered by a [Netlify](https://www.netlify.com/) backend
