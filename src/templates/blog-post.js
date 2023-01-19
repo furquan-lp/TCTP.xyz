@@ -35,7 +35,7 @@ export default function BlogPost({ data }) {
           image={post.frontmatter.banner.childImageSharp.gatsbyImageData}
           className="rounded-lg my-4 shadow shadow-slate-400"
         />
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <section className="article-blog-post" dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
       <Footer attribs={attribs} />
     </div>
