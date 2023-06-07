@@ -1,5 +1,5 @@
 ---
-title: Introduction to Internet of Things (IoT)
+title: A Quick Intro to Internet of Things (IoT)
 author: Syed Furquan Ahmad
 date: 2022-05-20
 thumbnail: "../images/iot_thumb.webp"
@@ -7,15 +7,44 @@ banner: "../images/iot.jpg"
 tags: ['iot', 'development']
 ---
 
-# IoT Basics
+# IoT 101 (and other useful stuff)
+IoT or Internet of Things has been a common buzzword we hear all the time... so much so that most of us are probably tired of hearing it at this point. But what exactly is IoT and why should we care about it? In this quick and snappy introduction, we'll try to demystify the concept and explore its *limitless* potential.
 
-IoT or Internet of Things has been a buzzword in the world of technology for a
-very long time. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum vitae sapien pellentesque habitant morbi tristique senectus. A erat nam at lectus urna duis. Cursus mattis molestie a iaculis. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. A erat nam at lectus urna. Condimentum id venenatis a condimentum vitae. Pellentesque diam volutpat commodo sed egestas egestas. Risus ultricies tristique nulla aliquet enim tortor at. Sed risus pretium quam vulputate dignissim. Ornare arcu dui vivamus arcu felis. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Habitasse platea dictumst quisque sagittis purus sit amet volutpat. Nunc lobortis mattis aliquam faucibus purus in. Quam lacus suspendisse faucibus interdum. Nibh nisl condimentum id venenatis a condimentum vitae.
+## Understanding IoT
 
-Iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Tincidunt vitae semper quis lectus nulla at volutpat diam. Vel facilisis volutpat est velit egestas dui id. Nisi lacus sed viverra tellus in. Non diam phasellus vestibulum lorem sed risus ultricies. At in tellus integer feugiat. Amet consectetur adipiscing elit pellentesque habitant morbi tristique. Dui sapien eget mi proin sed. Duis at consectetur lorem donec massa. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Tellus orci ac auctor augue mauris augue neque gravida in. Diam quam nulla porttitor massa id neque aliquam vestibulum. Pretium nibh ipsum consequat nisl vel. Turpis egestas pretium aenean pharetra. Proin nibh nisl condimentum id venenatis. Et odio pellentesque diam volutpat.
+At its core, IoT is the network of physical devices embedded with sensors, software, and connectivity that enables them to exchange data with each other and with the internet. These devices can be anything from smart home appliances like thermostats and security cameras to industrial machinery and even wearable fitness trackers.
 
-Tortor aliquam nulla facilisi cras fermentum. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Aliquam eleifend mi in nulla. Ipsum a arcu cursus vitae congue. Orci porta non pulvinar neque laoreet suspendisse interdum. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Congue nisi vitae suscipit tellus. Elit duis tristique sollicitudin nibh sit. Nulla malesuada pellentesque elit eget gravida cum sociis. Et netus et malesuada fames. Donec enim diam vulputate ut pharetra sit amet aliquam id. Odio euismod lacinia at quis risus. Placerat orci nulla pellentesque dignissim enim sit amet venenatis urna.
+The power of IoT lies in its ability to connect to and gather data from these devices, allowing for monitoring, automation, and analysis, all in *real time*! Imagine being able to control your home's temperature and lighting remotely or receiving notifications on your phone when your washing machine finishes its cycle. Well you probably don't have to imagine it because you're already experiencing it. *That*'s how prevalent IoT has become in our day-to-day lives.
 
-Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Integer quis auctor elit sed vulputate. Non odio euismod lacinia at quis risus sed. Nisl purus in mollis nunc sed id. Scelerisque viverra mauris in aliquam sem. Est sit amet facilisis magna etiam. Posuere ac ut consequat semper viverra nam libero justo. Egestas integer eget aliquet nibh praesent. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Fermentum posuere urna nec tincidunt praesent semper. Pulvinar neque laoreet suspendisse interdum consectetur libero id.
+## Why IoT Matters
 
-Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Diam in arcu cursus euismod quis viverra. Faucibus turpis in eu mi. Tellus integer feugiat scelerisque varius morbi enim nunc. Libero enim sed faucibus turpis. Quis risus sed vulputate odio. Eu consequat ac felis donec et odio pellentesque. Egestas fringilla phasellus faucibus scelerisque eleifend. Ornare massa eget egestas purus viverra accumsan in nisl. Et molestie ac feugiat sed lectus vestibulum mattis. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Ornare quam viverra orci sagittis eu volutpat odio facilisis. Maecenas sed enim ut sem viverra aliquet eget sit amet. Facilisi morbi tempus iaculis urna. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Sollicitudin nibh sit amet commodo. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Cras ornare arcu dui vivamus.
+I know I know, we're all tired of hearing about every little piece of tech having some kind of connectivity or internet functionality (\*insert memes about 'Internet of Crap' or other similar cynical jokes\*) but bear with me for a moment or two. IoT has the potential to revolutionize numerous industries and sectors that are still relying on good ol dinosaur era technology! From healthcare and agriculture to transportation and manufacturing, the applications of IoT are vast.
+
+Even for individuals, IoT can improve the quality of life by offering smart solutions. Whether it's managing energy consumption, monitoring health parameters, or simplifying household chores, IoT can make our lives more efficient and comfortable.
+
+# Exploring Further
+
+If you find the concept of IoT intriguing and want to dive deeper into its possibilities, here are a few areas to explore:
+
+* **Protocols and Standards:** Learn about the various communication protocols and standards used in IoT, such as MQTT, CoAP, and Zigbee. Understanding these protocols is essential for building robust IoT solutions.
+
+- **Cloud Platforms:** Explore cloud platforms like Amazon Web Services (AWS) IoT Core, Microsoft Azure IoT Hub, and Google Cloud IoT Core. These platforms provide scalable infrastructure and services for managing and analyzing IoT data.
+
+* **Data Analytics:** Delve into data analytics techniques and tools used in IoT. Big data analysis, machine learning, and predictive modeling can extract valuable insights from the vast amount of data generated by IoT devices.
+
+## Popular Hobbyist Platforms
+
+For hobbyists and enthusiasts interested in tinkering with IoT, there are several popular platforms worth exploring:
+
+* **Raspberry Pi:** Raspberry Pi is a credit-card-sized computer that can be used as a foundation for building IoT projects. It's affordable, versatile, and has a supportive community.
+
+- **Arduino:** Arduino is an open-source electronics platform that provides a wide range of microcontrollers and sensors. It's beginner-friendly and widely used for prototyping IoT projects.
+
+* **ESP8266 and ESP32:** These low-cost Wi-Fi-enabled microcontrollers offer great capabilities for IoT projects. They are popular choices for building connected devices and are well-supported by the maker community.
+
+By starting with these hobbyist platforms, you can gain hands-on experience and unleash your creativity in the world of IoT.
+
+In conclusion, IoT holds immense potential to transform the way we live and work. It offers endless possibilities for innovation and automation across various industries. Whether you're a business professional, a tech enthusiast, or simply curious about the future, exploring IoT can be an exciting journey. So why not dive in and see where it takes you?
+
+\---
+This blog post provided a brief introduction to IoT and its potential impact on our lives. If you want to explore further, there are numerous resources available online, including tutorials, documentation, and communities dedicated to IoT development. So go ahead, embrace the Internet of Things, and embark on an adventure of innovation and discovery.
