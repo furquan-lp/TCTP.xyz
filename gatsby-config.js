@@ -58,6 +58,12 @@ module.exports = {
       options: {
         icon: 'assets/logo.png',
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `tctp`
+      }
+    },
   ],
 }
