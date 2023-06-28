@@ -12,12 +12,23 @@ import { SEO } from '../components/seo';
 
 deckDeckGoHighlightElement();
 
-export default function BlogPost({ data }) {
+export default function BlogPost({ location, data }) {
   const post = data.markdownRemark;
   const attribs = [{
     attriblink: "https://www.vecteezy.com/",
     attrib: "Vectors by Vecteezy.com"
   }];
+
+  const siteData = useStaticQuery(graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+        siteUrl
+      }
+    }
+  }`);
 
   return (
     <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body text-blue-deep">
@@ -42,9 +53,9 @@ export default function BlogPost({ data }) {
       </article>
       <Disqus
         config={{
-          url: `${config.siteUrl + location.pathname}`,
+          url: `${siteData.site.siteMetadata.siteUrl + location.pathname}`,
           identifier: post.id,
-          title: post.frontmatter.title,
+          title: siteData.site.siteMetadata.title,
         }}
       />
       <Footer attribs={attribs} />
