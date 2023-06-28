@@ -1,7 +1,10 @@
 import React from 'react';
+
 import { graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
+
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+import { Disqus } from 'gatsby-plugin-disqus';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -37,6 +40,13 @@ export default function BlogPost({ data }) {
         />
         <section className="article-blog-post" dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
+      <Disqus
+        config={{
+          url: `${config.siteUrl + location.pathname}`,
+          identifier: post.id,
+          title: post.frontmatter.title,
+        }}
+      />
       <Footer attribs={attribs} />
     </div>
   );
