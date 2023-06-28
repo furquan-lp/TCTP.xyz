@@ -8,8 +8,8 @@ const Footer = ({ attribs }) => {
   if (attribs === undefined) {
     attribs = [{}];
   }
-  return (<div className="flex items-center justify-between border-t border-slate-300 mt-8 mb-2 pt-1 text-sm
-   text-slate-500">
+  return (<div className="flex items-center justify-between border-t border-slate-300 mt-8 py-1 text-sm
+   text-slate-500 bg-white">
     <span>
       Copyright &copy; {new Date().getFullYear()} Syed Furquan Ahmad.
       <span className="hidden md:inline"> Build version {version}.</span>
