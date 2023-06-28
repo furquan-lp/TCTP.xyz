@@ -19,17 +19,6 @@ export default function BlogPost({ location, data }) {
     attrib: "Vectors by Vecteezy.com"
   }];
 
-  const siteData = useStaticQuery(graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        description
-        siteUrl
-      }
-    }
-  }`);
-
   return (
     <div className="mx-auto md:max-w-screen-lg bg-mobile-img md:bg-none md:bg-white md:shadow-body text-blue-deep">
       <Header />
@@ -53,9 +42,9 @@ export default function BlogPost({ location, data }) {
       </article>
       <Disqus
         config={{
-          url: `${siteData.site.siteMetadata.siteUrl + location.pathname}`,
+          url: `${data.site.siteMetadata.siteUrl + location.pathname}`,
           identifier: post.id,
-          title: siteData.site.siteMetadata.title,
+          title: data.site.siteMetadata.title,
         }}
       />
       <Footer attribs={attribs} />
@@ -68,6 +57,13 @@ export const Head = ({ data: { markdownRemark }, location }) =>
 
 export const query = graphql`
   query blogQuery($slug: String!) {
+    site {
+      siteMetadata {
+        title
+        description
+        siteUrl
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
