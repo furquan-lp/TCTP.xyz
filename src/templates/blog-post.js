@@ -46,6 +46,7 @@ export default function BlogPost({ location, data }) {
           identifier: post.id,
           title: data.site.siteMetadata.title,
         }}
+        className="mx-1"
       />
       <Footer attribs={attribs} />
     </div>
