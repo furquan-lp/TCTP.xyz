@@ -64,6 +64,19 @@ module.exports = {
       options: {
         shortname: `tctp`
       }
-    },
+    }, {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-2EV49B5KC6", // Google Analytics / GA
+        ],
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          exclude: ["/preview/**", "/do-not-track/me/too/"],
+          delayOnRouteUpdate: 0,
+        },
+      },
+    }
   ],
 }
