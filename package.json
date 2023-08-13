@@ -34,11 +34,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.15",
     "gatsby-cli": "^5.11.0",
     "gatsby-plugin-postcss": "^6.11.0",
     "postcss": "^8.4.27",
-    "prettier": "^3.0.0",
+    "prettier": "^3.0.1",
     "tailwindcss": "^3.3.3"
   },
   "repository": {
