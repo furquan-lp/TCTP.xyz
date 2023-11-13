@@ -3,7 +3,7 @@
   "private": true,
   "description": "The Chip Tinker Project blog",
   "version": "1.0.6-beta",
-  "homepage": "https://tctp.nextdev.in/",
+  "homepage": "https://tctp.xyz/",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
